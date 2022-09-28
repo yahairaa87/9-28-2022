@@ -110,8 +110,11 @@ print(my_bool)
 
 # Check if num1 is greater than num2, and less than num3. Store the result of that comparison in a variable called my_bool.
 
-
-
+num1 = 36 
+num2 = 72/2
+num3 = 48
+my_bool =  num3 > num1 > num2 
+print(my_bool)
 
 # Logical Operators Practice #2
 # Create three variables (num1, num2, and num3):
@@ -124,7 +127,11 @@ print(my_bool)
 
 # Check if num1 is greater than num2, or less than num3. Store the result of that comparison in a variable called my_bool.
 
-
+num1 = 36 
+num2 = 72/2
+num3 = 48
+my_bool =  num3 > num1 or num1 > num2 
+print(my_bool)
 
 # Logical Operators Practice #3
 # Check if the words:
@@ -137,9 +144,11 @@ print(my_bool)
 
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
 
-
-
-
+word1 = "sucess"
+word2 = "technology"
+text = " 'When something is important enough, you do it even if the odds are against you' - Elon Musk "
+my_bool = ('word1' in text) and ('word2' in text)
+print(my_bool)
 
 ########################################decision making in python#####################################
 
